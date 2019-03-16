@@ -11,9 +11,9 @@ horizontal_desc = 'Left - Right'
 Callback = Callable[[Tuple[int, int], Tuple[int, int]], None]
 
 def get_range_slider(img: Image, orientation: str = 'horizontal') -> SelectionRangeSlider:
-    width: int       = img.size[0]
-    height: int      = img.size[1]
-    max_size: int    = width if orientation == 'horizontal' else height
+    width: int    = img.size[0]
+    height: int   = img.size[1]
+    max_size: int = width if orientation == 'horizontal' else height
     slider_range: range = range(0, width) if orientation == 'horizontal' else range(height, -1, -1)
     description: str = horizontal_desc if orientation == 'horizontal' else vertical_desc
     return widgets.SelectionRangeSlider(
