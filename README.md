@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/chrisPiemonte/boxer/master/resources/images/logo.png?token=AJohXvvJuQts0_WWL7-1MTmyMyd1gtfSks5clX6VwA%3D%3D" width="150"/></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/chrisPiemonte/boxer/master/resources/images/logo.png" width="150"/></p>
 
 <h1 align="center"> Boxer </h1>
 
